@@ -138,3 +138,74 @@ header section{
   margin-bottom: 120px;
 }
 
+.secondPage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 16px ;
+}
+
+.secondPage h2{
+    font-weight: var(--semiBold);
+    font-size: 1.6rem;
+    color: var(--black);
+    line-height: 37.5px;
+}
+
+.secondPage p {
+   width: 300px;
+   height: 70px; 
+   font-weight: var(--regular);
+   font-size: 1rem;
+   color: var(--gray);
+   line-height: 24px;
+   margin-bottom: 5%;
+}
+
+.secondPage div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.secondPage div img{
+    width:238px ;
+    height: 324px;
+    
+}
+
+.secondPage div span{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 212px;
+    height: 71px;
+    box-shadow: 0px 1px 10px #b1afaf;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100% ;
+}
+
+.textBox div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:0px 1px 10px rgb(196, 194, 194) ;
+    gap: 10px;
+    
+}
+
+.textBox div img{
+    width: 24px;
+    height: 24px;
+}
