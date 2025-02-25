@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root{
+    --purple:#5956E9; 
+    --font-primary:"Josefin Sans", serif;
+    --semiBold: 2.44em;
+    --black: #232233;
+    --gray: #6c6c72;
+    --white:#FFFFFF;
+    --light-purple: #7572FF;
+    --regular: 1rem;
+}
